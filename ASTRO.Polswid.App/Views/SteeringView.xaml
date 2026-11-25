@@ -1,0 +1,96 @@
+<UserControl x:Class="ASTRO.Polswid.App.Views.SteeringView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:ASTRO.Polswid.App.Controls"
+             xmlns:l="clr-namespace:ASTRO.Polswid.App.Localization">
+    <UserControl.Resources>
+        <Style x:Key="Lbl" TargetType="TextBlock" BasedOn="{StaticResource {x:Type TextBlock}}">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Width" Value="230"/>
+        </Style>
+        <Style x:Key="RowPanel" TargetType="StackPanel">
+            <Setter Property="Orientation" Value="Horizontal"/>
+            <Setter Property="Margin" Value="0,6"/>
+        </Style>
+    </UserControl.Resources>
+    <ScrollViewer>
+        <StackPanel MaxWidth="860" HorizontalAlignment="Stretch" Margin="0,0,12,16">
+
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal"><TextBlock Text="{l:Tr sec_continuous}" Style="{StaticResource H2}" Margin="0"/><c:HelpButton Topic="continuous"/><c:Badge Kind="optional"/></StackPanel>
+                    <Border Background="{StaticResource Surface2Brush}" CornerRadius="8" Padding="12" Margin="0,8,0,8">
+                        <StackPanel>
+                            <TextBlock Text="{l:Tr cont_explain}" Foreground="{StaticResource TextBrush}"/>
+                            <TextBlock Text="{l:Tr cont_left_only}" Style="{StaticResource Muted}" Margin="0,6,0,0"/>
+                        </StackPanel>
+                    </Border>
+                    <CheckBox Content="{l:Tr lbl_cont_enable}" IsChecked="{Binding Profile.Continuous.Enabled, Mode=TwoWay}"/>
+                    <StackPanel Style="{StaticResource RowPanel}">
+                        <TextBlock Text="{l:Tr lbl_cont_fallback}" Style="{StaticResource Lbl}"/>
+                        <ComboBox ItemsSource="{Binding FallbackSides}" ItemTemplate="{StaticResource EnumItem}" SelectedItem="{Binding Profile.Continuous.FallbackDirection, Mode=TwoWay}" MinWidth="260"/>
+                    </StackPanel>
+                    <c:SliderRow Label="{l:Tr lbl_cont_delay}" Hint="{l:Tr hint_cont_delay}" Help="continuous" Default="60" Value="{Binding Profile.Continuous.SquareDelayMs, Mode=TwoWay}" Minimum="0" Maximum="500" Step="5" Format="0"/>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <TextBlock Text="{l:Tr sec_r2}" Style="{StaticResource H2}"/>
+                    <StackPanel Style="{StaticResource RowPanel}">
+                        <TextBlock Text="{l:Tr lbl_r2_mode}" Style="{StaticResource Lbl}"/>
+                        <ComboBox ItemsSource="{Binding TriggerModes}" ItemTemplate="{StaticResource EnumItem}" SelectedItem="{Binding Profile.Mapping.R2Mode, Mode=TwoWay}" MinWidth="260"/>
+                        <c:HelpButton Topic="r2"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox Content="{l:Tr lbl_passthrough}" IsChecked="{Binding Profile.Mapping.TriggerPassthrough, Mode=TwoWay}"/>
+                        <c:HelpButton Topic="passthrough"/><c:Badge Kind="optional"/>
+                    </StackPanel>
+                    <c:SliderRow Label="{l:Tr lbl_press_th}" Help="trigth" Default="0.30" Value="{Binding Profile.Mapping.TriggerPressThreshold, Mode=TwoWay}" Minimum="0.05" Maximum="1"/>
+                    <c:SliderRow Label="{l:Tr lbl_release_th}" Help="trigth" Default="0.20" Value="{Binding Profile.Mapping.TriggerReleaseThreshold, Mode=TwoWay}" Minimum="0.01" Maximum="0.95"/>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <TextBlock Text="{l:Tr sec_analog}" Style="{StaticResource H2}"/>
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox Content="{l:Tr lbl_analog_enabled}" IsChecked="{Binding Profile.Analog.Enabled, Mode=TwoWay}"/>
+                        <c:HelpButton Topic="analog"/><c:Badge Kind="recommended"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox Content="{l:Tr lbl_suppress}" IsChecked="{Binding Profile.Analog.SuppressOriginal, Mode=TwoWay}"/>
+                        <c:HelpButton Topic="suppress"/><c:Badge Kind="recommended"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox Content="{l:Tr lbl_invert}" IsChecked="{Binding Profile.Analog.InvertX, Mode=TwoWay}"/>
+                        <c:HelpButton Topic="invert"/><c:Badge Kind="optional"/>
+                    </StackPanel>
+                    <c:SliderRow Label="{l:Tr lbl_deadzone}" Hint="{l:Tr hint_deadzone}" Help="deadzone" Default="0.20" Value="{Binding Profile.Analog.Deadzone, Mode=TwoWay}" Minimum="0" Maximum="0.9"/>
+                    <c:SliderRow Label="{l:Tr lbl_activation}" Hint="{l:Tr hint_activation}" Help="activation" Default="0.60" Value="{Binding Profile.Analog.ActivationThreshold, Mode=TwoWay}" Minimum="0.05" Maximum="1"/>
+                    <c:SliderRow Label="{l:Tr lbl_release}" Hint="{l:Tr hint_release}" Help="release" Default="0.35" Value="{Binding Profile.Analog.ReleaseThreshold, Mode=TwoWay}" Minimum="0" Maximum="0.95"/>
+                    <c:SliderRow Label="{l:Tr lbl_sens}" Help="sensitivity" Default="1" Value="{Binding Profile.Analog.Sensitivity, Mode=TwoWay}" Minimum="0.25" Maximum="3"/>
+                    <c:SliderRow Label="{l:Tr lbl_curve}" Hint="{l:Tr hint_curve}" Help="curve" Default="1" Value="{Binding Profile.Analog.ResponseCurve, Mode=TwoWay}" Minimum="0.3" Maximum="3"/>
+                    <c:SliderRow Label="{l:Tr lbl_smooth}" Hint="{l:Tr hint_smooth}" Help="smoothing" Default="0" Value="{Binding Profile.Analog.Smoothing, Mode=TwoWay}" Minimum="0" Maximum="0.9"/>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <TextBlock Text="{l:Tr sec_direction}" Style="{StaticResource H2}"/>
+                    <StackPanel Style="{StaticResource RowPanel}">
+                        <TextBlock Text="{l:Tr lbl_priority}" Style="{StaticResource Lbl}"/>
+                        <ComboBox ItemsSource="{Binding PriorityModes}" ItemTemplate="{StaticResource EnumItem}" SelectedItem="{Binding Profile.Direction.Priority, Mode=TwoWay}" MinWidth="260"/>
+                        <c:HelpButton Topic="priority"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox Content="{l:Tr lbl_contra}" IsChecked="{Binding Profile.Direction.AllowContradictory, Mode=TwoWay}"/>
+                        <c:HelpButton Topic="contra"/><c:Badge Kind="advanced"/>
+                    </StackPanel>
+                    <c:SliderRow Label="{l:Tr lbl_dwell}" Hint="{l:Tr hint_dwell}" Help="dwell" Default="0" Value="{Binding Profile.Timing.MinDirectionDwellMs, Mode=TwoWay}" Minimum="0" Maximum="100" Step="1" Format="0"/>
+                    <TextBlock Style="{StaticResource Muted}" Margin="0,6,0,0" Text="{l:Tr steer_note}"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

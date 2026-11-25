@@ -1,0 +1,71 @@
+<UserControl x:Class="ASTRO.Polswid.App.Views.ProfilesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:ASTRO.Polswid.App.Controls"
+             xmlns:l="clr-namespace:ASTRO.Polswid.App.Localization">
+    <ScrollViewer>
+        <StackPanel MaxWidth="860" HorizontalAlignment="Stretch" Margin="0,0,12,16">
+
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal"><TextBlock Text="{l:Tr sec_profile}" Style="{StaticResource H2}" Margin="0"/><c:HelpButton Topic="profiles"/></StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                        <TextBlock Text="{l:Tr lbl_profile_pick}" Width="140" VerticalAlignment="Center"/>
+                        <ComboBox ItemsSource="{Binding Profiles}" SelectedItem="{Binding SelectedProfile, Mode=TwoWay}" ItemTemplate="{StaticResource ProfileItem}" MinWidth="300" Tag="no-commit"/>
+                    </StackPanel>
+                    <TextBlock Text="{Binding Profile.Description}" Style="{StaticResource Muted}" Margin="140,6,0,6"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,6,0,10">
+                        <TextBlock Text="{l:Tr lbl_profile_name}" Width="140" VerticalAlignment="Center"/>
+                        <TextBox x:Name="NameBox" Width="300" Text="{Binding ProfileName, Mode=OneWay}" LostFocus="NameBox_LostFocus" KeyDown="NameBox_KeyDown"/>
+                    </StackPanel>
+                    <WrapPanel>
+                        <Button Content="{l:Tr btn_new}" Command="{Binding NewProfileCommand}"/>
+                        <Button Content="{l:Tr btn_dup}" Command="{Binding DuplicateProfileCommand}"/>
+                        <Button Content="{l:Tr btn_delete}" Command="{Binding DeleteProfileCommand}"/>
+                        <Button Content="{l:Tr btn_reset_profile}" Command="{Binding ResetProfileCommand}"/>
+                        <Button Content="{l:Tr btn_import}" Command="{Binding ImportProfileCommand}"/>
+                        <Button Content="{l:Tr btn_export}" Command="{Binding ExportProfileCommand}"/>
+                    </WrapPanel>
+                    <TextBlock Style="{StaticResource Muted}" Margin="0,10,0,0" Text="{l:Tr profiles_note}"/>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <TextBlock Text="{l:Tr sec_output}" Style="{StaticResource H2}"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,6">
+                        <TextBlock Text="{l:Tr lbl_output_type}" Width="230" VerticalAlignment="Center"/>
+                        <Button Content="{l:Tr out_x360}" Command="{Binding PickOutputCommand}" CommandParameter="Xbox360"/>
+                        <Button Content="DualShock 4" Command="{Binding PickOutputCommand}" CommandParameter="DualShock4"/>
+                        <c:HelpButton Topic="virtual"/>
+                    </StackPanel>
+                    <TextBlock Text="{Binding OutputName}" Foreground="{StaticResource NeonBrush}" Margin="0,0,0,2"/>
+                    <TextBlock Text="{Binding OutputNote}" Style="{StaticResource Muted}"/>
+                    <TextBlock Text="{l:Tr out_independent}" Style="{StaticResource Muted}" Margin="0,4,0,8"/>
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox Content="{l:Tr lbl_dryrun}" IsChecked="{Binding DryRun, Mode=TwoWay}"/>
+                        <c:HelpButton Topic="dryrun"/><c:Badge Kind="optional"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox Content="{l:Tr lbl_hotkeys}" IsChecked="{Binding GlobalHotkeys, Mode=TwoWay}"/>
+                        <c:HelpButton Topic="hotkeys"/><c:Badge Kind="recommended"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <TextBlock Text="{l:Tr sec_timing}" Style="{StaticResource H2}"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,6">
+                        <TextBlock Text="{l:Tr lbl_preset}" Width="230" VerticalAlignment="Center"/>
+                        <ComboBox x:Name="Preset" ItemsSource="{Binding TimingPresetNames}" ItemTemplate="{StaticResource PresetItem}" SelectedItem="{Binding Profile.Timing.Preset, Mode=OneWay}" SelectionChanged="Preset_SelectionChanged" MinWidth="260" Tag="no-commit"/>
+                        <c:HelpButton Topic="preset"/>
+                    </StackPanel>
+                    <c:SliderRow Label="{l:Tr lbl_polling}" Hint="{l:Tr hint_polling}" Help="polling" Default="500" Value="{Binding Profile.Timing.PollingHz, Mode=TwoWay}" Minimum="60" Maximum="2000" Step="10" Format="0"/>
+                    <c:SliderRow Label="{l:Tr lbl_submit}" Hint="{l:Tr hint_submit}" Help="submit" Default="500" Value="{Binding Profile.Timing.MaxSubmitHz, Mode=TwoWay}" Minimum="60" Maximum="2000" Step="10" Format="0"/>
+                    <TextBlock Style="{StaticResource Muted}" Margin="0,6,0,0" Text="{l:Tr timing_note}"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

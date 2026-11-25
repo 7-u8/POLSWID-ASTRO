@@ -1,0 +1,109 @@
+<UserControl x:Class="ASTRO.Polswid.App.Views.WizardView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:ASTRO.Polswid.App.Controls"
+             xmlns:l="clr-namespace:ASTRO.Polswid.App.Localization">
+    <UserControl.Resources>
+        <Style x:Key="Opt" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+            <Setter Property="Padding" Value="20,16"/>
+            <Setter Property="Margin" Value="0,0,12,0"/>
+            <Setter Property="MinWidth" Value="250"/>
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Tag, RelativeSource={RelativeSource Self}}" Value="True">
+                    <Setter Property="Background" Value="{StaticResource AccentBrush}"/>
+                    <Setter Property="BorderBrush" Value="{StaticResource NeonBrush}"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Grid Background="#E60A0A0F">
+        <Border Width="760" MaxHeight="620" VerticalAlignment="Center" HorizontalAlignment="Center" CornerRadius="16" Padding="30"
+                Background="{StaticResource SurfaceBrush}" BorderBrush="{StaticResource AccentBrush}" BorderThickness="1" Effect="{StaticResource NeonGlow}">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Margin="0,0,0,16">
+                    <TextBlock Text="{l:Tr wiz_title}" Style="{StaticResource H2}" Margin="0,0,0,2"/>
+                    <TextBlock Text="{Binding WizStepText}" Style="{StaticResource Muted}"/>
+                </StackPanel>
+
+                <Grid Grid.Row="1" MinHeight="300">
+                    <!-- 1 -->
+                    <StackPanel Visibility="{Binding WizIs1, Converter={StaticResource BoolVis}}">
+                        <TextBlock Text="{l:Tr wiz1_title}" FontSize="22" FontWeight="SemiBold"/>
+                        <TextBlock Text="{l:Tr wiz1_body}" Margin="0,10,0,18" FontSize="14"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Ellipse Width="14" Height="14" Fill="{Binding PhysicalBrush}" Margin="0,3,10,0" VerticalAlignment="Top"/>
+                            <TextBlock Text="{Binding WizFoundText}" FontSize="15"/>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <!-- 2 -->
+                    <StackPanel Visibility="{Binding WizIs2, Converter={StaticResource BoolVis}}">
+                        <TextBlock Text="{l:Tr wiz2_title}" FontSize="22" FontWeight="SemiBold"/>
+                        <TextBlock Text="{l:Tr wiz2_body}" Margin="0,10,0,18" FontSize="14"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Style="{StaticResource Opt}" Tag="{Binding OutputIsX360}" Command="{Binding PickOutputCommand}" CommandParameter="Xbox360">
+                                <StackPanel><TextBlock Text="{l:Tr out_x360}" FontSize="18" FontWeight="Bold"/><TextBlock Text="{l:Tr out_x360_desc}" Style="{StaticResource Muted}"/></StackPanel>
+                            </Button>
+                            <Button Style="{StaticResource Opt}" Tag="{Binding OutputIsDs4}" Command="{Binding PickOutputCommand}" CommandParameter="DualShock4">
+                                <StackPanel><TextBlock Text="DualShock 4" FontSize="18" FontWeight="Bold"/><TextBlock Text="{l:Tr out_ds4_desc}" Style="{StaticResource Muted}"/></StackPanel>
+                            </Button>
+                        </StackPanel>
+                        <TextBlock Text="{Binding VirtualText}" Margin="0,18,0,0"/>
+                        <TextBlock Text="{Binding DriverText}" Style="{StaticResource Muted}" Margin="0,4,0,0"/>
+                    </StackPanel>
+
+                    <!-- 3 -->
+                    <StackPanel Visibility="{Binding WizIs3, Converter={StaticResource BoolVis}}">
+                        <TextBlock Text="{l:Tr wiz3_title}" FontSize="22" FontWeight="SemiBold"/>
+                        <TextBlock Text="{l:Tr wiz3_body}" Margin="0,10,0,10" FontSize="14"/>
+                        <c:ControllerView State="{Binding Physical}" Height="210" FlowDirection="LeftToRight"/>
+                        <TextBlock Text="{Binding WizButtonText}" Margin="0,8,0,2" Foreground="{StaticResource GoodBrush}"/>
+                        <TextBlock Text="{Binding WizStickText}" Foreground="{StaticResource GoodBrush}"/>
+                    </StackPanel>
+
+                    <!-- 4 -->
+                    <StackPanel Visibility="{Binding WizIs4, Converter={StaticResource BoolVis}}">
+                        <TextBlock Text="{l:Tr wiz4_title}" FontSize="22" FontWeight="SemiBold"/>
+                        <TextBlock Text="{l:Tr wiz4_body}" Margin="0,10,0,14" FontSize="14"/>
+                        <TextBlock Text="•  " Visibility="Collapsed"/>
+                        <TextBlock Text="{l:Tr wiz4_l1}" FontSize="15" Margin="0,3"/>
+                        <TextBlock Text="{l:Tr wiz4_l2}" FontSize="15" Margin="0,3"/>
+                        <TextBlock Text="{l:Tr wiz4_l3}" FontSize="15" Margin="0,3"/>
+                        <TextBlock Text="{l:Tr wiz4_l4}" FontSize="15" Margin="0,3"/>
+                        <TextBlock Text="{l:Tr wiz4_l5}" FontSize="15" Margin="0,3"/>
+                        <TextBlock Text="{l:Tr wiz4_note}" Foreground="{StaticResource NeonBrush}" Margin="0,16,0,0"/>
+                    </StackPanel>
+
+                    <!-- 5 -->
+                    <StackPanel Visibility="{Binding WizIs5, Converter={StaticResource BoolVis}}">
+                        <TextBlock Text="{l:Tr wiz5_title}" FontSize="22" FontWeight="SemiBold"/>
+                        <TextBlock Text="{l:Tr wiz5_body}" Margin="0,10,0,14" FontSize="14"/>
+                        <TextBlock Text="{Binding WizSummaryPhys}" FontSize="15" Margin="0,3"/>
+                        <TextBlock Text="{Binding WizSummaryVirt}" FontSize="15" Margin="0,3"/>
+                        <TextBlock Text="{l:Tr wiz5_remap}" FontSize="15" Margin="0,3"/>
+                        <TextBlock Text="{l:Tr wiz5_hint}" Style="{StaticResource Muted}" Margin="0,16,0,0"/>
+                    </StackPanel>
+                </Grid>
+
+                <DockPanel Grid.Row="2" Margin="0,16,0,0">
+                    <Button DockPanel.Dock="Left" Content="{l:Tr wiz_skip}" Command="{Binding WizSkipCommand}"/>
+                    <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button Content="{l:Tr wiz_back}" Command="{Binding WizBackCommand}" Visibility="{Binding WizCanBack, Converter={StaticResource BoolVis}}"/>
+                        <Button Style="{StaticResource Primary}" Content="{l:Tr wiz_next}" Command="{Binding WizNextCommand}" Padding="22,9" Margin="0"
+                                Visibility="{Binding WizIsLast, Converter={StaticResource InvVis}}"/>
+                        <Button Style="{StaticResource Primary}" Content="{l:Tr wiz_finish}" Command="{Binding WizFinishCommand}" Padding="22,9" Margin="0"
+                                Visibility="{Binding WizIsLast, Converter={StaticResource BoolVis}}"/>
+                    </StackPanel>
+                    <Border/>
+                </DockPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

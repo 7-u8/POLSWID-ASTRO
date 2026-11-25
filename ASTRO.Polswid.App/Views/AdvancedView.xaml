@@ -1,0 +1,31 @@
+<UserControl x:Class="ASTRO.Polswid.App.Views.AdvancedView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:v="clr-namespace:ASTRO.Polswid.App.Views"
+             xmlns:l="clr-namespace:ASTRO.Polswid.App.Localization">
+    <Grid Margin="32,26,20,10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <TextBlock Text="{l:Tr adv_title}" Style="{StaticResource H1}"/>
+            <TextBlock Text="{l:Tr adv_sub}" Style="{StaticResource Muted}" FontSize="13" Margin="0,4,0,14"/>
+        </StackPanel>
+        <WrapPanel Grid.Row="1" Margin="0,0,0,14">
+            <RadioButton x:Name="TabButtons" Style="{StaticResource Tab}" Content="{l:Tr tab_buttons}" IsChecked="True" GroupName="advtabs"/>
+            <RadioButton x:Name="TabSteering" Style="{StaticResource Tab}" Content="{l:Tr tab_steering}" GroupName="advtabs"/>
+            <RadioButton x:Name="TabHelpers" Style="{StaticResource Tab}" Content="{l:Tr tab_helpers}" GroupName="advtabs"/>
+            <RadioButton x:Name="TabProfiles" Style="{StaticResource Tab}" Content="{l:Tr tab_profiles}" GroupName="advtabs"/>
+            <RadioButton x:Name="TabDiag" Style="{StaticResource Tab}" Content="{l:Tr tab_diag}" GroupName="advtabs"/>
+        </WrapPanel>
+        <Grid Grid.Row="2">
+            <v:MappingView Visibility="{Binding IsChecked, ElementName=TabButtons, Converter={StaticResource BoolVis}}"/>
+            <v:SteeringView Visibility="{Binding IsChecked, ElementName=TabSteering, Converter={StaticResource BoolVis}}"/>
+            <v:HelpersView Visibility="{Binding IsChecked, ElementName=TabHelpers, Converter={StaticResource BoolVis}}"/>
+            <v:ProfilesView Visibility="{Binding IsChecked, ElementName=TabProfiles, Converter={StaticResource BoolVis}}"/>
+            <v:DiagnosticsView Visibility="{Binding IsChecked, ElementName=TabDiag, Converter={StaticResource BoolVis}}"/>
+        </Grid>
+    </Grid>
+</UserControl>

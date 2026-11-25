@@ -1,0 +1,3554 @@
+{
+  "Source": "r2-20261103-123407-0b74634b685a4992a31ea1a835e0410d.jsonl",
+  "ConfirmedUnintentionalExits": [
+    2600,
+    17072
+  ],
+  "Boundary": "SDL mapped R2, not wire HID; replay characterizes source release reports, not a hardware repair",
+  "Windows": [
+    {
+      "ExitSequence": 2600,
+      "Frames": [
+        {
+          "Sequence": 2520,
+          "TimeUs": 947381139444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -0.16079712,
+            "LY": -0.019592883,
+            "RX": 0.003906369,
+            "RY": 0.3333435,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2521,
+          "TimeUs": 947381141444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -0.20785522,
+            "LY": -0.02743614,
+            "RX": 0.003906369,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2522,
+          "TimeUs": 947381143444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -0.31765747,
+            "LY": -0.035279397,
+            "RX": 0.003906369,
+            "RY": 0.35687256,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2523,
+          "TimeUs": 947381145624,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -0.39608765,
+            "LY": -0.035279397,
+            "RX": 0.003906369,
+            "RY": 0.36471558,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2524,
+          "TimeUs": 947381147632,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -0.7411804,
+            "LY": -0.050965913,
+            "RX": 0.003906369,
+            "RY": 0.35687256,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2525,
+          "TimeUs": 947381149443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.043122653,
+            "RX": 0.011749626,
+            "RY": 0.35687256,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2526,
+          "TimeUs": 947381151444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.050965913,
+            "RX": 0.011749626,
+            "RY": 0.35687256,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2527,
+          "TimeUs": 947381153585,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.050965913,
+            "RX": 0.011749626,
+            "RY": 0.36471558,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2528,
+          "TimeUs": 947381155583,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.05880917,
+            "RX": 0.011749626,
+            "RY": 0.36471558,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2529,
+          "TimeUs": 947381157587,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.05880917,
+            "RX": 0.003906369,
+            "RY": 0.36471558,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2530,
+          "TimeUs": 947381159605,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.035279397,
+            "RX": 0.003906369,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2531,
+          "TimeUs": 947381161597,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.05880917,
+            "RX": 0.003906369,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2532,
+          "TimeUs": 947381163604,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.08233894,
+            "RX": 0.003906369,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2533,
+          "TimeUs": 947381165638,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.066652425,
+            "RX": 0.003906369,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2534,
+          "TimeUs": 947381167443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.07449568,
+            "RX": 0.003906369,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2535,
+          "TimeUs": 947381169443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.07449568,
+            "RX": 0.003906369,
+            "RY": 0.31765747,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2536,
+          "TimeUs": 947381171444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.08233894,
+            "RX": 0.003906369,
+            "RY": 0.31765747,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2537,
+          "TimeUs": 947381173444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.09018219,
+            "RX": 0.003906369,
+            "RY": 0.3333435,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2538,
+          "TimeUs": 947381175444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.09018219,
+            "RX": 0.003906369,
+            "RY": 0.3333435,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2539,
+          "TimeUs": 947381177445,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.066652425,
+            "RX": 0.003906369,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2540,
+          "TimeUs": 947381179444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.09018219,
+            "RX": 0.003906369,
+            "RY": 0.3333435,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2541,
+          "TimeUs": 947381181444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.066652425,
+            "RX": 0.003906369,
+            "RY": 0.3255005,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2542,
+          "TimeUs": 947381183443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.07449568,
+            "RX": 0.011749626,
+            "RY": 0.3255005,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2543,
+          "TimeUs": 947381185471,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.066652425,
+            "RX": 0.003906369,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2544,
+          "TimeUs": 947381187466,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.08233894,
+            "RX": 0.003906369,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2545,
+          "TimeUs": 947381189462,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.05880917,
+            "RX": 0.003906369,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2546,
+          "TimeUs": 947381191483,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.043122653,
+            "RX": 0.003906369,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2547,
+          "TimeUs": 947381193514,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.07449568,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2548,
+          "TimeUs": 947381195521,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.066652425,
+            "RX": 0.003906369,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2549,
+          "TimeUs": 947381197587,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.02743614,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2550,
+          "TimeUs": 947381199443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.003906369,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2551,
+          "TimeUs": 947381201444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": 0.011779785,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2552,
+          "TimeUs": 947381203444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": 0.050994873,
+            "RX": 0.011749626,
+            "RY": 0.36471558,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2553,
+          "TimeUs": 947381205443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.08233894,
+            "RX": 0.011749626,
+            "RY": 0.36471558,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2554,
+          "TimeUs": 947381207445,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.07449568,
+            "RX": 0.011749626,
+            "RY": 0.36471558,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2555,
+          "TimeUs": 947381209444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.09018219,
+            "RX": 0.011749626,
+            "RY": 0.35687256,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2556,
+          "TimeUs": 947381211444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.066652425,
+            "RX": 0.011749626,
+            "RY": 0.36471558,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2557,
+          "TimeUs": 947381213443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.050965913,
+            "RX": 0.003906369,
+            "RY": 0.36471558,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2558,
+          "TimeUs": 947381215443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.08233894,
+            "RX": 0.003906369,
+            "RY": 0.35687256,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2559,
+          "TimeUs": 947381217444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": -0.019592883,
+            "RX": 0.011749626,
+            "RY": 0.36471558,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2560,
+          "TimeUs": 947381219444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": 0.0039367676,
+            "RX": 0.003906369,
+            "RY": 0.3804016,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2561,
+          "TimeUs": 947381221584,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": 0.011779785,
+            "RX": 0.003906369,
+            "RY": 0.44314575,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2562,
+          "TimeUs": 947381223444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": 0.11373901,
+            "RX": 0.011749626,
+            "RY": 0.4588318,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2563,
+          "TimeUs": 947381225443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": 0.09020996,
+            "RX": 0.011749626,
+            "RY": 0.4666748,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2564,
+          "TimeUs": 947381227443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": 0.1529541,
+            "RX": 0.003906369,
+            "RY": 0.47451782,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2565,
+          "TimeUs": 947381229443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": 0.16079712,
+            "RX": 0.011749626,
+            "RY": 0.47451782,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2566,
+          "TimeUs": 947381231444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -1,
+            "LY": 0.16079712,
+            "RX": 0.003906369,
+            "RY": 0.47451782,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2567,
+          "TimeUs": 947381233444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -0.8745117,
+            "LY": 0.16079712,
+            "RX": 0.011749626,
+            "RY": 0.47451782,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2568,
+          "TimeUs": 947381235443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -0.6470642,
+            "LY": 0.11373901,
+            "RX": 0.003906369,
+            "RY": 0.47451782,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2569,
+          "TimeUs": 947381237556,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -0.44314575,
+            "LY": 0.09805298,
+            "RX": 0.003906369,
+            "RY": 0.48236084,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2570,
+          "TimeUs": 947381239461,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -0.3255005,
+            "LY": 0.08236694,
+            "RX": 0.011749626,
+            "RY": 0.49020386,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2571,
+          "TimeUs": 947381241534,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -0.20785522,
+            "LY": 0.05883789,
+            "RX": 0.003906369,
+            "RY": 0.49020386,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2572,
+          "TimeUs": 947381243529,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -0.1529541,
+            "LY": 0.043151855,
+            "RX": 0.011749626,
+            "RY": 0.47451782,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2573,
+          "TimeUs": 947381245997,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -0.12158203,
+            "LY": 0.043151855,
+            "RX": 0.011749626,
+            "RY": 0.48236084,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2574,
+          "TimeUs": 947381247483,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -0.08236694,
+            "LY": 0.035308838,
+            "RX": 0.011749626,
+            "RY": 0.48236084,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2575,
+          "TimeUs": 947381249492,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -0.050994873,
+            "LY": 0.02746582,
+            "RX": 0.011749626,
+            "RY": 0.47451782,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2576,
+          "TimeUs": 947381251577,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -0.035308838,
+            "LY": 0.019622803,
+            "RX": 0.011749626,
+            "RY": 0.47451782,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2577,
+          "TimeUs": 947381253601,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": -0.011779785,
+            "LY": 0.011779785,
+            "RX": 0.011749626,
+            "RY": 0.4666748,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2578,
+          "TimeUs": 947381255444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.003906369,
+            "LY": 0.0039367676,
+            "RX": 0.011749626,
+            "RY": 0.45098877,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2579,
+          "TimeUs": 947381257443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.003906369,
+            "LY": -0.003906369,
+            "RX": 0.011749626,
+            "RY": 0.45098877,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2580,
+          "TimeUs": 947381259443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.003906369,
+            "LY": -0.003906369,
+            "RX": 0.003906369,
+            "RY": 0.45098877,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2581,
+          "TimeUs": 947381261443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.011749626,
+            "LY": 0.0039367676,
+            "RX": 0.003906369,
+            "RY": 0.4588318,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2582,
+          "TimeUs": 947381263444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.02743614,
+            "LY": 0.0039367676,
+            "RX": 0.003906369,
+            "RY": 0.44314575,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2583,
+          "TimeUs": 947381265444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.035279397,
+            "LY": 0.011779785,
+            "RX": 0.011749626,
+            "RY": 0.43530273,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2584,
+          "TimeUs": 947381267443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.050965913,
+            "LY": 0.011779785,
+            "RX": 0.003906369,
+            "RY": 0.42745972,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2585,
+          "TimeUs": 947381269461,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.05880917,
+            "LY": 0.011779785,
+            "RX": 0.003906369,
+            "RY": 0.42745972,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2586,
+          "TimeUs": 947381271496,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.066652425,
+            "LY": 0.011779785,
+            "RX": 0.011749626,
+            "RY": 0.43530273,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2587,
+          "TimeUs": 947381273518,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.08233894,
+            "LY": 0.011779785,
+            "RX": 0.003906369,
+            "RY": 0.44314575,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2588,
+          "TimeUs": 947381275545,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.09018219,
+            "LY": 0.011779785,
+            "RX": 0.003906369,
+            "RY": 0.44314575,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2589,
+          "TimeUs": 947381277610,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.11371197,
+            "LY": 0.019622803,
+            "RX": 0.003906369,
+            "RY": 0.43530273,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2590,
+          "TimeUs": 947381279640,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.13724174,
+            "LY": 0.019622803,
+            "RX": 0.011749626,
+            "RY": 0.43530273,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2591,
+          "TimeUs": 947381281651,
+          "RawR2": 31096,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.15292825,
+            "LY": 0.019622803,
+            "RX": 0.003906369,
+            "RY": 0.42745972,
+            "L2": 0,
+            "R2": 0.9490036
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2592,
+          "TimeUs": 947381283638,
+          "RawR2": 25442,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.16861476,
+            "LY": 0.019622803,
+            "RX": 0.003906369,
+            "RY": 0.42745972,
+            "L2": 0,
+            "R2": 0.77645195
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2593,
+          "TimeUs": 947381285648,
+          "RawR2": 20174,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.19214454,
+            "LY": 0.02746582,
+            "RX": 0.011749626,
+            "RY": 0.42745972,
+            "L2": 0,
+            "R2": 0.6156804
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2594,
+          "TimeUs": 947381287637,
+          "RawR2": 14520,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.21567431,
+            "LY": 0.019622803,
+            "RX": 0.003906369,
+            "RY": 0.42745972,
+            "L2": 0,
+            "R2": 0.44312876
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2595,
+          "TimeUs": 947381289665,
+          "RawR2": 8866,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.2548906,
+            "LY": 0.02746582,
+            "RX": 0.011749626,
+            "RY": 0.42745972,
+            "L2": 0,
+            "R2": 0.2705771
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2596,
+          "TimeUs": 947381291824,
+          "RawR2": 3983,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.30979338,
+            "LY": 0.035308838,
+            "RX": 0.011749626,
+            "RY": 0.43530273,
+            "L2": 0,
+            "R2": 0.121555224
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2597,
+          "TimeUs": 947381293443,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.36469617,
+            "LY": 0.035308838,
+            "RX": 0.003906369,
+            "RY": 0.43530273,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2598,
+          "TimeUs": 947381295444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.419599,
+            "LY": 0.050994873,
+            "RX": 0.003906369,
+            "RY": 0.43530273,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2599,
+          "TimeUs": 947381297444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.60783714,
+            "LY": 0.074523926,
+            "RX": 0.003906369,
+            "RY": 0.43530273,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2600,
+          "TimeUs": 947381299444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.725486,
+            "LY": 0.08236694,
+            "RX": 0.003906369,
+            "RY": 0.43530273,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2601,
+          "TimeUs": 947381301538,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 0.9294107,
+            "LY": 0.14511108,
+            "RX": 0.003906369,
+            "RY": 0.43530273,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2602,
+          "TimeUs": 947381303564,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 1,
+            "LY": 0.1529541,
+            "RX": 0.011749626,
+            "RY": 0.45098877,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2603,
+          "TimeUs": 947381305767,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 1,
+            "LY": 0.12158203,
+            "RX": 0.011749626,
+            "RY": 0.45098877,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2604,
+          "TimeUs": 947381307444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 1,
+            "LY": 0.1529541,
+            "RX": 0.003906369,
+            "RY": 0.44314575,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2605,
+          "TimeUs": 947381309444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 1,
+            "LY": 0.16864014,
+            "RX": 0.003906369,
+            "RY": 0.44314575,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2606,
+          "TimeUs": 947381311444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 1,
+            "LY": 0.16864014,
+            "RX": 0.003906369,
+            "RY": 0.44314575,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2607,
+          "TimeUs": 947381313443,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 1,
+            "LY": 0.17648315,
+            "RX": 0.011749626,
+            "RY": 0.44314575,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2608,
+          "TimeUs": 947381315821,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 1,
+            "LY": 0.16864014,
+            "RX": 0.003906369,
+            "RY": 0.43530273,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2609,
+          "TimeUs": 947381317443,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 1,
+            "LY": 0.18432617,
+            "RX": 0.003906369,
+            "RY": 0.43530273,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2610,
+          "TimeUs": 947381319444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 1,
+            "LY": 0.16864014,
+            "RX": 0.003906369,
+            "RY": 0.42745972,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2611,
+          "TimeUs": 947381321444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 1,
+            "LY": 0.16079712,
+            "RX": 0.003906369,
+            "RY": 0.42745972,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 2612,
+          "TimeUs": 947381323444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "None",
+            "LX": 1,
+            "LY": 0.16079712,
+            "RX": 0.003906369,
+            "RY": 0.42745972,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        }
+      ]
+    },
+    {
+      "ExitSequence": 17072,
+      "Frames": [
+        {
+          "Sequence": 16992,
+          "TimeUs": 947410083443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.36469617,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 16993,
+          "TimeUs": 947410085443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.36469617,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 16994,
+          "TimeUs": 947410087444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.35685292,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 16995,
+          "TimeUs": 947410089512,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.31763664,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 16996,
+          "TimeUs": 947410091518,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.34900966,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 16997,
+          "TimeUs": 947410093518,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.33332315,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 16998,
+          "TimeUs": 947410095534,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.34900966,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 16999,
+          "TimeUs": 947410097519,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.37253943,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17000,
+          "TimeUs": 947410099563,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17001,
+          "TimeUs": 947410101537,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17002,
+          "TimeUs": 947410103443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17003,
+          "TimeUs": 947410105444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17004,
+          "TimeUs": 947410107443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17005,
+          "TimeUs": 947410109444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17006,
+          "TimeUs": 947410111443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17007,
+          "TimeUs": 947410113444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17008,
+          "TimeUs": 947410115443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17009,
+          "TimeUs": 947410117443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17010,
+          "TimeUs": 947410119444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17011,
+          "TimeUs": 947410121476,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17012,
+          "TimeUs": 947410123499,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17013,
+          "TimeUs": 947410125515,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17014,
+          "TimeUs": 947410127443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17015,
+          "TimeUs": 947410129443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.3333435,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17016,
+          "TimeUs": 947410131443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.003906369,
+            "RY": 0.3333435,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17017,
+          "TimeUs": 947410133444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.3333435,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17018,
+          "TimeUs": 947410135443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.3333435,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17019,
+          "TimeUs": 947410137444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17020,
+          "TimeUs": 947410139444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17021,
+          "TimeUs": 947410141444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17022,
+          "TimeUs": 947410143626,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.003906369,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17023,
+          "TimeUs": 947410145443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17024,
+          "TimeUs": 947410147444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17025,
+          "TimeUs": 947410149444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17026,
+          "TimeUs": 947410151444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.003906369,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17027,
+          "TimeUs": 947410153444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17028,
+          "TimeUs": 947410155474,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.003906369,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17029,
+          "TimeUs": 947410157495,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17030,
+          "TimeUs": 947410159571,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17031,
+          "TimeUs": 947410161571,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17032,
+          "TimeUs": 947410163590,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17033,
+          "TimeUs": 947410165583,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17034,
+          "TimeUs": 947410167696,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17035,
+          "TimeUs": 947410169443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17036,
+          "TimeUs": 947410171444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17037,
+          "TimeUs": 947410173444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17038,
+          "TimeUs": 947410175443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.3333435,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17039,
+          "TimeUs": 947410177443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.003906369,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17040,
+          "TimeUs": 947410179443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17041,
+          "TimeUs": 947410181532,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17042,
+          "TimeUs": 947410183648,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17043,
+          "TimeUs": 947410185654,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17044,
+          "TimeUs": 947410187444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.35687256,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17045,
+          "TimeUs": 947410189444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17046,
+          "TimeUs": 947410191553,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17047,
+          "TimeUs": 947410193444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.003906369,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17048,
+          "TimeUs": 947410195443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.003906369,
+            "RY": 0.35687256,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17049,
+          "TimeUs": 947410197443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17050,
+          "TimeUs": 947410199444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17051,
+          "TimeUs": 947410201444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17052,
+          "TimeUs": 947410203444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17053,
+          "TimeUs": 947410205444,
+          "RawR2": 29940,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.003906369,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 0.9137242
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17054,
+          "TimeUs": 947410207444,
+          "RawR2": 28526,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 0.870571
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17055,
+          "TimeUs": 947410209443,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.003906369,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17056,
+          "TimeUs": 947410211444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17057,
+          "TimeUs": 947410213444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17058,
+          "TimeUs": 947410215543,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17059,
+          "TimeUs": 947410217567,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17060,
+          "TimeUs": 947410219640,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17061,
+          "TimeUs": 947410221797,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17062,
+          "TimeUs": 947410223444,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17063,
+          "TimeUs": 947410225648,
+          "RawR2": 32767,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 1
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17064,
+          "TimeUs": 947410227651,
+          "RawR2": 28783,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 0.8784143
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17065,
+          "TimeUs": 947410229644,
+          "RawR2": 21844,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.35687256,
+            "L2": 0,
+            "R2": 0.6666463
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17066,
+          "TimeUs": 947410231644,
+          "RawR2": 15419,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 0.4705649
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17067,
+          "TimeUs": 947410233443,
+          "RawR2": 8480,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 0.25879696
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17068,
+          "TimeUs": 947410235444,
+          "RawR2": 3212,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 0.098025456
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17069,
+          "TimeUs": 947410237444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17070,
+          "TimeUs": 947410239444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17071,
+          "TimeUs": 947410241443,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": true,
+          "R2Active": true,
+          "ContinuousActive": true,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17072,
+          "TimeUs": 947410243444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17073,
+          "TimeUs": 947410245444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17074,
+          "TimeUs": 947410247443,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17075,
+          "TimeUs": 947410249496,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17076,
+          "TimeUs": 947410251493,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17077,
+          "TimeUs": 947410253666,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17078,
+          "TimeUs": 947410255627,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17079,
+          "TimeUs": 947410257444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38038272,
+            "RX": 0.003906369,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17080,
+          "TimeUs": 947410259444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.003906369,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17081,
+          "TimeUs": 947410261443,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34902954,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17082,
+          "TimeUs": 947410263444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17083,
+          "TimeUs": 947410265444,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.011749626,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        },
+        {
+          "Sequence": 17084,
+          "TimeUs": 947410267443,
+          "RawR2": 0,
+          "Physical": {
+            "Buttons": "Cross, R1",
+            "LX": -1,
+            "LY": -0.38822597,
+            "RX": 0.003906369,
+            "RY": 0.34118652,
+            "L2": 0,
+            "R2": 0
+          },
+          "R2Held": false,
+          "R2Active": false,
+          "ContinuousActive": false,
+          "VirtualR2": 0,
+          "SubmittedR2": 0
+        }
+      ]
+    }
+  ]
+}

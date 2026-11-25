@@ -1,0 +1,9 @@
+bin/
+obj/
+.vs/
+*.user
+TestResults/
+# local build outputs and scratch folders (releases are published as GitHub release assets, not committed)
+release*/
+artifacts/
+shots/

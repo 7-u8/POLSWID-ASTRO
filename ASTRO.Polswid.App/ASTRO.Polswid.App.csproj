@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ASTRO.Polswid.Core\ASTRO.Polswid.Core.csproj" />
+    <ProjectReference Include="..\ASTRO.Polswid.Infrastructure\ASTRO.Polswid.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>ASTRO POLSWID</AssemblyName>
+    <RootNamespace>ASTRO.Polswid.App</RootNamespace>
+    <Product>ASTRO POLSWID</Product>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+</Project>

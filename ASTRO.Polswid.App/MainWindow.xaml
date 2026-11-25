@@ -1,0 +1,52 @@
+<Window x:Class="ASTRO.Polswid.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ASTRO POLSWID" Width="1240" Height="820" MinWidth="1020" MinHeight="680"
+        Background="{StaticResource BgBrush}" WindowStartupLocation="CenterScreen"
+        MaxHeight="{x:Static SystemParameters.MaximizedPrimaryScreenHeight}" MaxWidth="{x:Static SystemParameters.MaximizedPrimaryScreenWidth}"
+        WindowStyle="None" ResizeMode="CanResize" FontFamily="{StaticResource UiFont}">
+    <Window.Resources>
+        <Style x:Key="CaptionBtn" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+            <Setter Property="Width" Value="46"/>
+            <Setter Property="Height" Value="32"/>
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="bd" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="bd" Property="Background" Value="{StaticResource Surface2Brush}"/></Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Border BorderBrush="{StaticResource BorderBrush}" BorderThickness="1">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="32"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- title bar (always left-to-right, like Windows itself) -->
+            <Grid Background="{StaticResource BgBrush}" MouseLeftButtonDown="TitleBar_MouseDown" FlowDirection="LeftToRight">
+                <TextBlock Text="ASTRO POLSWID" Margin="14,0,0,0" VerticalAlignment="Center" FontSize="11" Foreground="{StaticResource MutedBrush}"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button x:Name="LangBtn" Style="{StaticResource CaptionBtn}" Width="82" Click="Lang_Click" Foreground="{StaticResource NeonBrush}" FontWeight="SemiBold"/>
+                    <Button Style="{StaticResource CaptionBtn}" Click="Min_Click" Content="&#x2014;" Foreground="{StaticResource TextBrush}"/>
+                    <Button Style="{StaticResource CaptionBtn}" Click="Max_Click" Content="&#x25A1;" Foreground="{StaticResource TextBrush}"/>
+                    <Button Style="{StaticResource CaptionBtn}" Click="Close_Click" Content="&#x2715;" Foreground="{StaticResource TextBrush}"/>
+                </StackPanel>
+            </Grid>
+
+            <ContentPresenter x:Name="ShellHost" Grid.Row="1"/>
+        </Grid>
+    </Border>
+</Window>

@@ -1,0 +1,8 @@
+﻿<Solution>
+  <Project Path="ASTRO.Polswid.App/ASTRO.Polswid.App.csproj" />
+  <Project Path="ASTRO.Polswid.Core/ASTRO.Polswid.Core.csproj" />
+  <Project Path="ASTRO.Polswid.Infrastructure/ASTRO.Polswid.Infrastructure.csproj" />
+  <Project Path="ASTRO.Polswid.Setup/ASTRO.Polswid.Setup.csproj" />
+  <Project Path="ASTRO.Polswid.Tests/ASTRO.Polswid.Tests.csproj" />
+</Solution>
+

@@ -1,0 +1,81 @@
+<UserControl x:Class="ASTRO.Polswid.App.Views.HelpersView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:ASTRO.Polswid.App.Controls"
+             xmlns:l="clr-namespace:ASTRO.Polswid.App.Localization">
+    <UserControl.Resources>
+        <Style x:Key="Lbl" TargetType="TextBlock" BasedOn="{StaticResource {x:Type TextBlock}}">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Width" Value="230"/>
+        </Style>
+        <Style x:Key="RowPanel" TargetType="StackPanel">
+            <Setter Property="Orientation" Value="Horizontal"/>
+            <Setter Property="Margin" Value="0,6"/>
+        </Style>
+    </UserControl.Resources>
+    <ScrollViewer>
+        <StackPanel MaxWidth="860" HorizontalAlignment="Stretch" Margin="0,0,12,16">
+            <TextBlock Text="{l:Tr helpers_note}" Style="{StaticResource Muted}" Margin="0,0,0,12" FontSize="13"/>
+
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal"><TextBlock Text="{l:Tr sec_uturn}" Style="{StaticResource H2}" Margin="0"/><c:HelpButton Topic="uturn"/><c:Badge Kind="advanced"/></StackPanel>
+                    <CheckBox Content="{l:Tr lbl_uturn_enable}" IsChecked="{Binding Profile.Helpers.UTurn.Enabled, Mode=TwoWay}" Margin="0,8,0,4"/>
+                    <StackPanel Style="{StaticResource RowPanel}">
+                        <TextBlock Text="{l:Tr lbl_execution}" Style="{StaticResource Lbl}"/>
+                        <ComboBox ItemsSource="{Binding UTurnModes}" ItemTemplate="{StaticResource EnumItem}" SelectedItem="{Binding Profile.Helpers.UTurn.Execution, Mode=TwoWay}" MinWidth="260"/>
+                    </StackPanel>
+                    <StackPanel Style="{StaticResource RowPanel}">
+                        <TextBlock Text="{l:Tr lbl_trigger_btn}" Style="{StaticResource Lbl}"/>
+                        <ComboBox ItemsSource="{Binding AllTargets}" ItemTemplate="{StaticResource PadButtonItem}" SelectedItem="{Binding Profile.Helpers.UTurn.TriggerButton, Mode=TwoWay}" MinWidth="260"/>
+                    </StackPanel>
+                    <StackPanel Style="{StaticResource RowPanel}">
+                        <TextBlock Text="{l:Tr lbl_release_ctrl}" Style="{StaticResource Lbl}"/>
+                        <ComboBox ItemsSource="{Binding AllTargets}" ItemTemplate="{StaticResource PadButtonItem}" SelectedItem="{Binding Profile.Helpers.UTurn.ReleaseButtons, Mode=TwoWay}" MinWidth="260"/>
+                    </StackPanel>
+                    <c:SliderRow Label="{l:Tr lbl_release_ms}" Help="uturn" Default="50" Value="{Binding Profile.Helpers.UTurn.ReleaseMs, Mode=TwoWay}" Minimum="1" Maximum="500" Step="1" Format="0"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+                        <Button Content="{l:Tr btn_run_uturn}" Command="{Binding TriggerUTurnCommand}"/>
+                        <Button Content="{l:Tr btn_cancel_helpers}" Command="{Binding CancelHelpersCommand}"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal"><TextBlock Text="{l:Tr sec_air}" Style="{StaticResource H2}" Margin="0"/><c:HelpButton Topic="air"/><c:Badge Kind="advanced"/></StackPanel>
+                    <CheckBox Content="{l:Tr lbl_air_enable}" IsChecked="{Binding Profile.Helpers.Air.Enabled, Mode=TwoWay}" Margin="0,8,0,4"/>
+                    <StackPanel Style="{StaticResource RowPanel}">
+                        <TextBlock Text="{l:Tr lbl_trigger_btn}" Style="{StaticResource Lbl}"/>
+                        <ComboBox ItemsSource="{Binding AllTargets}" ItemTemplate="{StaticResource PadButtonItem}" SelectedItem="{Binding Profile.Helpers.Air.TriggerButton, Mode=TwoWay}" MinWidth="260"/>
+                    </StackPanel>
+                    <StackPanel Style="{StaticResource RowPanel}">
+                        <TextBlock Text="{l:Tr lbl_jump_btn}" Style="{StaticResource Lbl}"/>
+                        <ComboBox ItemsSource="{Binding AllTargets}" ItemTemplate="{StaticResource PadButtonItem}" SelectedItem="{Binding Profile.Helpers.Air.JumpButton, Mode=TwoWay}" MinWidth="260"/>
+                    </StackPanel>
+                    <c:SliderRow Label="{l:Tr lbl_jump_ms}" Help="air" Default="80" Value="{Binding Profile.Helpers.Air.JumpPressMs, Mode=TwoWay}" Minimum="0" Maximum="300" Step="1" Format="0"/>
+                    <c:SliderRow Label="{l:Tr lbl_flip_ms}" Hint="{l:Tr hint_flip}" Help="air" Default="250" Value="{Binding Profile.Helpers.Air.SwitchAfterMs, Mode=TwoWay}" Minimum="0" Maximum="1500" Step="5" Format="0"/>
+                    <Button Content="{l:Tr btn_run_air}" Command="{Binding TriggerAirCommand}" HorizontalAlignment="Left" Margin="0,4,0,0"/>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal"><TextBlock Text="{l:Tr sec_safety}" Style="{StaticResource H2}" Margin="0"/><c:HelpButton Topic="emergency"/></StackPanel>
+                    <StackPanel Style="{StaticResource RowPanel}">
+                        <TextBlock Text="{l:Tr lbl_emerg_btn}" Style="{StaticResource Lbl}"/>
+                        <ComboBox ItemsSource="{Binding AllTargets}" ItemTemplate="{StaticResource PadButtonItem}" SelectedItem="{Binding Profile.Helpers.EmergencyStopButton, Mode=TwoWay}" MinWidth="260"/>
+                    </StackPanel>
+                    <StackPanel Style="{StaticResource RowPanel}">
+                        <TextBlock Text="{l:Tr lbl_cancel_btn}" Style="{StaticResource Lbl}"/>
+                        <ComboBox ItemsSource="{Binding AllTargets}" ItemTemplate="{StaticResource PadButtonItem}" SelectedItem="{Binding Profile.Helpers.CancelHelpersButton, Mode=TwoWay}" MinWidth="260"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox Content="{l:Tr lbl_consume}" IsChecked="{Binding Profile.Helpers.ConsumeControlButtons, Mode=TwoWay}"/>
+                        <c:HelpButton Topic="consume"/><c:Badge Kind="recommended"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

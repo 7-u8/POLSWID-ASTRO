@@ -1,0 +1,60 @@
+<UserControl x:Class="ASTRO.Polswid.App.Views.MappingView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:ASTRO.Polswid.App.Controls"
+             xmlns:l="clr-namespace:ASTRO.Polswid.App.Localization">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.25*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="{l:Tr map_title}" Style="{StaticResource H2}" FontSize="18" Margin="0,0,0,6"/>
+                <c:HelpButton Topic="remap" Margin="8,-4,8,0"/>
+            </StackPanel>
+            <TextBlock Text="{l:Tr map_hint}" Style="{StaticResource Muted}" Margin="0,0,0,10"/>
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <c:ControllerView x:Name="Diagram" Interactive="True" State="{Binding Physical}" Height="330" FlowDirection="LeftToRight" ButtonClicked="Diagram_ButtonClicked"/>
+                    <TextBlock Text="{Binding SelectedRowText}" FontSize="16" Foreground="{StaticResource NeonBrush}" HorizontalAlignment="Center" Margin="0,8,0,0"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+        <Border Grid.Column="1" Style="{StaticResource Card}" Margin="0,0,0,12">
+            <DockPanel>
+                <TextBlock DockPanel.Dock="Top" Text="{l:Tr map_list_title}" Style="{StaticResource H2}"/>
+                <TextBlock DockPanel.Dock="Bottom" Style="{StaticResource Muted}" Margin="0,10,0,0" Text="{l:Tr map_note}"/>
+                <ScrollViewer>
+                    <ItemsControl ItemsSource="{Binding Rows}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border x:Name="row" Padding="8,4" CornerRadius="6" Margin="0,1" BorderThickness="1" BorderBrush="Transparent">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="170"/>
+                                            <ColumnDefinition Width="24"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="{Binding SourceName}" VerticalAlignment="Center"/>
+                                        <TextBlock Grid.Column="1" Text="←" Foreground="{StaticResource MutedBrush}" VerticalAlignment="Center"/>
+                                        <ComboBox Grid.Column="2" SelectedItem="{Binding Target, Mode=TwoWay}"
+                                                  ItemsSource="{Binding DataContext.AllTargets, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                                  ItemTemplate="{StaticResource PadButtonItem}" Tag="no-commit"/>
+                                    </Grid>
+                                </Border>
+                                <DataTemplate.Triggers>
+                                    <DataTrigger Binding="{Binding IsSelected}" Value="True">
+                                        <Setter TargetName="row" Property="Background" Value="{StaticResource Surface2Brush}"/>
+                                        <Setter TargetName="row" Property="BorderBrush" Value="{StaticResource AccentBrush}"/>
+                                    </DataTrigger>
+                                </DataTemplate.Triggers>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </ScrollViewer>
+            </DockPanel>
+        </Border>
+    </Grid>
+</UserControl>
